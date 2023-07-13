@@ -4,16 +4,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="favicon.png" />
+  <link rel="icon" href="/favicon.png" />
   <title>Ian Lansdowne</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="modulepreload" href="/animation.js" />
   <style>
     body {
-      background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png), url(stars.webp);
+      background-image: url(twinkling.webp), url(stars.webp);
       background-color: black;
       background-size: cover;
-      animation: move-twinkle 60s linear infinite;
+      animation: move-twinkle 50s linear infinite alternate;
     }
 
     @keyframes move-twinkle {
@@ -30,7 +31,7 @@
 
 <body data-bs-theme="dark">
   <div class="px-4 py-5 my-5 text-center">
-    <img width="200" src="profile.jpg" alt="profile picture" class="rounded-circle mb-2">
+    <img width="200" src="/profile.jpg" alt="profile picture" class="rounded-circle mb-2">
     <h1 class="display-5 fw-bold">Ian Lansdowne</h1>
     <p>Roboticist and Programmer<br />Engineering Student at Texas A&M</p>
     <p class="d-none d-sm-block">
@@ -52,6 +53,7 @@
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.min.js"></script>
+  <script type="module" src="/animation.js"></script>
 </body>
 
 </html>
