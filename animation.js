@@ -9,13 +9,14 @@ document.body.appendChild(ls);
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const ctx = ls.getContext('2d');
-const n = 3000;
+
 const starRatio = 500;
 const speed = 5;
 
 const [w, h] = [window.innerWidth, window.innerHeight];
 const [x, y, z] = [w / 2, h / 2, (w + h) / 8];
 const starColorRatio = 1 / z;
+const n = w * h / 300;  // # of stars
 
 const stars = Array.from({ length: n }, () => {
   const actx = Math.random() * w - x;
@@ -53,16 +54,16 @@ function draw() {
 }
 
 draw();
-await sleep(200);
+await sleep(400);
 
-for (let i = 0; i < 52; i++) {
+for (let i = 0; i < 50; i++) {
   for (const star of stars) star.z1 -= 2.5;
   draw();
   await sleep(1);
 }
 await sleep(500);
-for (let i = 0; i < 13; i++) {
-  for (const star of stars) star.z1 += 10;
+for (let i = 0; i < 25; i++) {
+  for (const star of stars) star.z1 += 5;
   draw();
   await sleep(1);
 }
