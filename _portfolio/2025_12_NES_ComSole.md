@@ -4,9 +4,10 @@ excerpt: Smart insole for detecting and mitigating Freezing of Gait in Parkinson
 collection: portfolio
 ---
 
-|                 ![ComSole](/images/ComSole/ComSole.jpg)                  |             ![3D Printing Insole](/images/ComSole/Printing.jpg)              |                ![CAD](/images/ComSole/CAD.png)                 | ![PCB](/images/ComSole/PCB.svg) |
-| :----------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------: |
-| *ComSole System including 3D-Printed Insoles, PCB, and Electronics Case* | *Electronics Inserted while 3D Printing Insole, showing Haptic Disc and IMU* | *Insole CAD model showing Haptic Disc and IMU in Right Insole* |          *PCB Diagram*          |
+|                 ![ComSole](/images/ComSole/ComSole.jpg)                  |             ![3D Printing Insole](/images/ComSole/Printing.jpg)              |                ![CAD](/images/ComSole/CAD.png)                 |
+| :----------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :------------------------------------------------------------: |
+| *ComSole System including 3D-Printed Insoles, PCB, and Electronics Case* | *Electronics Inserted while 3D Printing Insole, showing Haptic Disc and IMU* | *Insole CAD model showing Haptic Disc and IMU in Right Insole* |
+
 
 Resources: [Final Presentation](/files/COMSOLE_Final_Presentation.pdf), [Final Report](/files/COMSOLE_Final_Report.pdf)  
 Sponsor: [Dr. Ya Wang](https://engineering.tamu.edu/mechanical/profiles/wang-ya.html) ([NES Lab](https://wanglab.engr.tamu.edu/))  
@@ -21,3 +22,7 @@ My contribution to this project was firmware, system design, electronics integra
 I selected an IMU, microprocessor, and haptic motor, and constructed a prototype insole with these components. The NES lab used this prototype to produce a flexible PCB for the final product.
 
 I also developed a manufacturing process for the insoles. Part of this process was identifying the best 3D printing configuration for the insoles. I made samples of various infills to characterize the hardness and comfort, then selected the best material for the insole. Many respondents, when interviewed on the insole, said they preferred it over their own.
+
+|                     ![PCB](/images/ComSole/PCB.svg)                      |
+| :----------------------------------------------------------------------: |
+|                              *PCB Diagram*                               |
