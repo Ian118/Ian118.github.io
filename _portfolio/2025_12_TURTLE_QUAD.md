@@ -8,7 +8,7 @@ collection: portfolio
 | :----------------------------------: | :--------------------------------------------: | :----------------------------------: | :--------------------------------------------: |
 |        *QUAD V2 (Fall 2025)*         |           *Mini QUAD V1 (Fall 2024)*           |        *QUAD V1 (Fall 2023)*         |           *Mini QUAD V0 (Fall 2022)*           |
 
-Posters: [Fall 2025](/files/QUAD_Poster_Fall_2025.pdf), [Spring 2025](/files/QUAD_Poster_Spring_2025.pdf), [Fall 2024](/files/QUAD_Poster_Fall_2024.pdf), [Spring 2024 (Presented at TEROS)](/files/QUAD_Poster_Spring_2024.pdf)  
+Posters: [Spring 2026](/files/QUAD_Poster_TEROS_2026.pdf), [Fall 2025](/files/QUAD_Poster_Fall_2025.pdf), [Spring 2025](/files/QUAD_Poster_Spring_2025.pdf), [Fall 2024](/files/QUAD_Poster_Fall_2024.pdf), [Spring 2024 (Presented at TEROS)](/files/QUAD_Poster_Spring_2024.pdf)  
 Presentations: [Fall 2023](/files/QUAD_Presentation_Fall_2023.pdf), [Spring 2023](/files/QUAD_Presentation_Spring_2023.pdf)  
 Code: [QUAD V2](https://github.com/turtle-robotics/quad-v2), [QUAD V1](https://github.com/turtle-robotics/quad-v1), [QUAD V0](https://github.com/Ian118/robodog)  
 Visualization: [Interactive Demo](https://www.desmos.com/3d/80460d30b0)
