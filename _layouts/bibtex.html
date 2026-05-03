@@ -1,0 +1,15 @@
+---
+layout: single
+classes: wide
+title: "Details"
+author_profile: true
+---
+{% if page.entry.abstract %}
+<b>Abstract:</b>
+<p>{{ page.entry.abstract }}</p>
+{% endif %}
+
+<b>Citation:</b>
+<small>
+    <pre>{{ page.entry.bibtex }}</pre>
+</small>

@@ -1,0 +1,18 @@
+---
+title: RAD Lab Robotic Space Simulator (RSS)
+excerpt: A physical simulator for the dynamics of dual spacecraft interactions
+collection: portfolio
+image: RAD/RSS_Dock.webp
+year: 2024
+---
+
+| ![RSS Docking](/images/RAD/RSS_Dock.webp) | ![UR20 on RSS](/images/RAD/RSS_UR20.jpg) |
+| :---------------------------------------: | :--------------------------------------: |
+|     *RSS Docking Arm with Satellite*      |           *UR20 Mouted on RSS*           |
+
+[RAD Lab](https://rad.engr.tamu.edu/)
+Faculty Sponsor: [Dr. Robert Ambrose](https://engineering.tamu.edu/mechanical/profiles/ambrose-robert.html)
+
+The Robotic Space Simulator is a pair of Stewart platforms, each equipped with a slide or rotary auxiliary axis, used to physically simulate the dynamics of spacecraft satellites. Satellites (the arm and rungs above) are mounted to the platform on 6 DoF force-torque sensors. My contribution to this project is the compensation of the mass effects of the satellites on the force-torque sensors to isolate contact forces, and methods to find the mass properties. I co-authored a paper on these methods published to ICRA 2025[^1]. Working on the RSS, I was introduced to Lie algebra and applications in robotics. I spent time developing my skills programming C++ modules for ROS, containerizing the simulator code with Docker, and learning to use SolidWorks to create a stand-in robotic arm for safer contact simulation (pictured).
+
+[^1]: *[Robotic Space Simulator: Controls Implementation for Auxiliary Axes and Zero-G Dynamics](/publications/hilburn_robotic_2025/)*

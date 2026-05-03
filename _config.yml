@@ -1,0 +1,88 @@
+title: Ian Lansdowne
+email: ianl@tamu.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this line in
+  _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+github_username: ian118
+minimal_mistakes_skin: neon
+search: true
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Chicago
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-scholar
+  - jekyll-include-cache
+
+author:
+  name: "Ian Lansdowne"
+  avatar: "/images/profile.jpg"
+  bio: "Research Engineer at Texas A&M University RAD Lab."
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/idlansdowne"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0007-3716-8076"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=vXDDpoEAAAAJ"
+    - label: "RAD Lab"
+      icon: "fas fa-fw fa-link"
+      url: "https://rad.engr.tamu.edu/"
+
+collections:
+  portfolio:
+    output: true
+    # permalink: /:collection/:path/
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+
+scholar:
+  style: apa
+  sort_by: date
+  order: descending
+  group_by: type
+  group_order: descending
+  source: ./_data
+  bibliography: publications.bib
+  # details_layout: bibtex.html
+  repository: ./publications
+  details_dir: publications
+  type_names:
+    mastersthesis: Master's Thesis
+    phdthesis: PhD Thesis
+    # unpublished: Posters
+
+atom_feed:
+  hide: true
